@@ -1,36 +1,43 @@
-#Database Info
-
-
-Username:root Passwd:(null)
-
-mysql> use test01;
-Database changed
-
-mysql> show tables;
-+------------------+
-| Tables_in_test01 |
-+------------------+
-| answer           |
-| user             |
-+------------------+
-2 rows in set (0.00 sec)
-
-mysql> describe user;
-+----------+----------+------+-----+---------+-------+
-| Field    | Type     | Null | Key | Default | Extra |
-+----------+----------+------+-----+---------+-------+
-| username | char(20) | NO   | PRI |         |       |
-| password | char(50) | YES  |     | NULL    |       |
-| score    | int(11)  | YES  |     | NULL    |       |
-+----------+----------+------+-----+---------+-------+
-3 rows in set (0.08 sec)
-
-mysql> describe answer;
-+-------+----------+------+-----+---------+-------+
-| Field | Type     | Null | Key | Default | Extra |
-+-------+----------+------+-----+---------+-------+
-| ans   | char(20) | NO   | PRI |         |       |
-+-------+----------+------+-----+---------+-------+
-1 row in set (0.02 sec)
-
-mysql>
+#Database Info<br />
+<br />
+<br />
+<br />
+<br />
+Username:root Passwd:(null)<br />
+<br />
+<br />
+mysql&gt; use test01;<br />
+Database changed<br />
+<br />
+<br />
+mysql&gt; show tables;<br />
++------------------+<br />
+| Tables_in_test01 |<br />
++------------------+<br />
+| answer &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |<br />
+| user &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |<br />
++------------------+<br />
+2 rows in set (0.00 sec)<br />
+<br />
+<br />
+mysql&gt; describe user;<br />
++----------+----------+------+-----+---------+-------+<br />
+| Field &nbsp; &nbsp;| Type &nbsp; &nbsp; | Null | Key | Default | Extra |<br />
++----------+----------+------+-----+---------+-------+<br />
+| username | char(20) | NO &nbsp; | PRI | &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; |<br />
+| password | char(50) | YES &nbsp;| &nbsp; &nbsp; | NULL &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; |<br />
+| score &nbsp; &nbsp;| int(11) &nbsp;| YES &nbsp;| &nbsp; &nbsp; | NULL &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; |<br />
++----------+----------+------+-----+---------+-------+<br />
+3 rows in set (0.08 sec)<br />
+<br />
+<br />
+mysql&gt; describe answer;<br />
++-------+----------+------+-----+---------+-------+<br />
+| Field | Type &nbsp; &nbsp; | Null | Key | Default | Extra |<br />
++-------+----------+------+-----+---------+-------+<br />
+| ans &nbsp; | char(20) | NO &nbsp; | PRI | &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; |<br />
++-------+----------+------+-----+---------+-------+<br />
+1 row in set (0.02 sec)<br />
+<br />
+<br />
+mysql&gt;
