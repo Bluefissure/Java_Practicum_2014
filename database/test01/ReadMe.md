@@ -1,14 +1,10 @@
-#Database Info<br />
-<br />
-<br />
+<span style="font-size: 15px;"><span style="font-family:Courier New;">#Database Info<br />
 <br />
 <br />
 Username:root Passwd:(null)<br />
 <br />
-<br />
 mysql&gt; use test01;<br />
 Database changed<br />
-<br />
 <br />
 mysql&gt; show tables;<br />
 +------------------+<br />
@@ -18,7 +14,6 @@ mysql&gt; show tables;<br />
 | user &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |<br />
 +------------------+<br />
 2 rows in set (0.00 sec)<br />
-<br />
 <br />
 mysql&gt; describe user;<br />
 +----------+----------+------+-----+---------+-------+<br />
@@ -30,7 +25,6 @@ mysql&gt; describe user;<br />
 +----------+----------+------+-----+---------+-------+<br />
 3 rows in set (0.08 sec)<br />
 <br />
-<br />
 mysql&gt; describe answer;<br />
 +-------+----------+------+-----+---------+-------+<br />
 | Field | Type &nbsp; &nbsp; | Null | Key | Default | Extra |<br />
@@ -39,5 +33,4 @@ mysql&gt; describe answer;<br />
 +-------+----------+------+-----+---------+-------+<br />
 1 row in set (0.02 sec)<br />
 <br />
-<br />
-mysql&gt;
+mysql&gt;</span></span>
