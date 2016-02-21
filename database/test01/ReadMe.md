@@ -1,6 +1,5 @@
-<span style="font-size: 15px;"><span style="font-family:Courier New;">#Database Info<br />
-<br />
-<br />
+#Database Info
+<span style="font-size: 15px;"><span style="font-family:Courier New;">
 Username:root Passwd:(null)<br />
 <br />
 mysql&gt; use test01;<br />
